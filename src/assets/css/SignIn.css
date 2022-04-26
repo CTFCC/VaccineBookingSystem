@@ -1,0 +1,79 @@
+.sign-in-from {
+	width: 320px;
+	background: #f1f1f1;
+	height: 500px;
+	padding: 80px 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.txta {
+	border-bottom: 2px solid #adadad;
+	position: relative;
+	margin: 30px 0;
+}
+.el-input__inner {
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 100%;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+}
+.txta .el-input__prefix::after {
+	background: none;
+}
+.txta::after {
+	content: '';
+	position: absolute;
+	width: var(--width);
+	height: 2px;
+	background: linear-gradient(#0AB0D5, #9E2CFD);
+	transition: .5s;
+}
+
+.sign-in-from h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.signbtn {
+	margin-right: 32px;
+	/* margin-left: 5%; */
+	width: 40%;
+	height: 50px;
+	background: linear-gradient(120deg, #0AB0D5, #9E2CFD, #0AB0D5);
+	border: none;
+	background-size: 200%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+}
+.signres{
+	margin-left: 32px;
+	width: 40%;
+	height: 50px;
+	background: linear-gradient(120deg, #0AB0D5, #9E2CFD, #0AB0D5);
+	border: none;
+	background-size: 200%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.signbtn:hover {
+	background-position: right;
+}
+.signres:hover {
+	background-position: right;
+}
+.bottom-text {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 13px;
+}
